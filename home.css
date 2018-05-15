@@ -1,0 +1,210 @@
+body {
+    background-image: url("Wood.jpg");
+	background-size: 2500px 2100px;
+    background-repeat: no-repeat;
+   } 
+h1, h2{
+  line-height: 10px; 
+}
+h1 {
+   
+	font-family: 'Miltonian Tattoo', cursive;
+	font-size: 75px;
+	color:white;
+	margin-bottom:0px;
+}
+h2 {
+   
+	font face: 'verdana';
+	font-size: 15px;
+	color:#CD853F;
+}
+p.small {
+    color:white;
+    line-height: 90%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	color:#8B4513;
+}
+p.small1 {
+    color:white;
+    line-height: 90%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	
+}
+p.smallFont {
+    line-height: 90%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	color:#8B4513;
+}
+p.about
+{
+
+    line-height: 100%;
+font-size: 20px;
+	color:#8B4513;
+
+
+}
+p.about1
+{
+
+    line-height: 100%;
+font-size: 28px;
+	color:#8B4513;
+
+
+}
+input#gobutton{
+cursor:pointer; 
+padding:5px 25px; 
+background:#A0522D; 
+border:1px solid #A0522D; 
+/
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+/*give the button a drop shadow*/
+-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+box-shadow: 0 0 4px rgba(0,0,0, .75);
+/*style the text*/
+color:white;
+font-size:30px;
+}
+
+input#gobutton:hover, input#gobutton:focus{
+background-color :#CD853F; /*make the background a little darker*/
+/*reduce the drop shadow size to give a pushed button effect*/
+-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+
+#nav-wrapper {
+align="center"
+width:465px;
+margin:0 auto;
+padding:10px 0;
+background:#D2B48C;
+}
+
+ul#nav {
+font-family: 'Miltonian Tattoo', cursive;
+font-size:20px;
+list-style:none;
+margin:0 auto;
+padding:5px 15px;
+width:1200px;
+overflow: auto;
+}
+
+ul#nav li {
+display:inline;
+}
+
+ul#nav li a {
+text-decoration:none;
+display: block;
+padding:30px 71px;
+background:#A0522D;
+color:#eee;
+float:left;
+text-align:center;
+border-top:5px solid #815444;
+border-right:5px solid #3d1000;
+border-bottom:5px solid #3d1000;
+border-left:5px solid #815444;
+}
+
+ul#nav li a:hover {
+background:#CD853F;
+color:#000;
+border-top:5px solid #815444;
+border-right:5px solid #c59888;
+border-bottom:5px solid #c59888;
+border-left:5px solid #815444;
+}
+.icon-button .icon-twitter {
+	color: white;
+}
+.icon-button .icon-facebook {
+	color: white;
+}
+
+#section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+#aboutsection
+{
+ width:950px;
+    float:left;
+    padding:10px;
+
+}
+#nav1 {
+    font-family: 'Roboto', sans-serif;
+    line-height:30px;
+    background-color:#A0522D;
+    height:550px;
+    width:900px;
+    float:left;
+    padding:15px;	      
+}
+#navproduct1 {
+    line-height:30px;
+    background-color:#A0522D;
+    height:550px;
+    width:400px;
+    float:left;
+    padding:15px;	      
+}
+
+#photo {
+    line-height:30px;
+    background-color:#A0522D;
+    height:190px;
+    width:250px;
+    float:left;
+    padding:15px;	      
+}
+
+
+  #footer {
+    font face: 'verdana';
+	font-size: 15px;
+    background-color:#D2B48C;
+    color:#800000;
+    clear:both;
+    text-align:center;
+    padding:20px
+	}
+	a:link {
+    color:#800000;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited {
+    color:#800000;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover {
+    color:#800000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+a:active {
+    color:#800000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+#map-canvas {
+        width: 550px;
+        height: 600px;
+		background-color: #CCC;
+ }

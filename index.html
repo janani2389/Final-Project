@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Chicago Coffee Service</title>
+<link rel="stylesheet" type="text/css" href="home.css">
+<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css'>
+<link href='http://fonts.googleapis.com/css?family=Miltonian+Tattoo' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body align = "center">
+<div align="center">
+<h1 align = "left">Chicago Coffee Service<h1>
+<h2 align = "left">SMELL RICH AND WARM AROMA<h2>
+</div>
+<div align="right">
+<a href="http://twitter.com/minimalmonkey" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a>
+<a href="http://facebook.com" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a>
+</div>
+  <div id="nav-wrapper" >
+  <ul id="nav" align="center">
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="about.html">ABOUT US</a></li>
+    <li><a href="products.html">PRODUCTS</a></li>
+    <li><a href="contact.html">CONTACT US</a></li>
+   </ul>
+</div>
+<div id ="nav1"align="left">
+<a href="javascript:slidelink()"><img src="5970884485_e5ee84b84a_b.jpg" id="slide" width=900 height=550 align="center" /></a>
+</div>
+<div id="section">
+<p class="small1">
+The B3000/B3000SE Large Office Brewing System, the largest most advanced brewing system, is packed with features. 
+The B3000/B3000SE is the way large offices make the coffee you, your office and your customers will love.
+</p>
+</div>
+<div id="section">
+<img src="b3000se.jpg" style="width:404px;height:428px">
+</div>
+<div id="footer">
+Copyright © ChicagoCoffeeService.com
+</div>
+<script type="text/javascript">
+
+var slideimages = new Array() 
+slideimages[0] = new Image() 
+slideimages[0].src = "slide1.jpg" 
+slideimages[1] = new Image()
+slideimages[1].src = "slide2.jpg"
+slideimages[2] = new Image()
+slideimages[2].src = "slide3.jpg"
+slideimages[3] = new Image()
+slideimages[3].src = "slide4.jpg"
+
+var step = 0
+var whichimage = 0
+
+function slideit(){
+
+ if (!document.images)
+  return
+ document.getElementById('slide').src = slideimages[step].src
+ whichimage = step
+ if (step<3)
+  step++
+ else
+  step=0
+
+ setTimeout("slideit()",2500)
+}
+
+function slidelink(){
+ if (whichimage == 0)
+  window.location = "link1.htm"
+ else if (whichimage == 1)
+  window.location = "link2.htm"
+ else if (whichimage == 2)
+  window.location = "link3.htm"
+}
+
+slideit()
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact Us</title>
+<link rel="stylesheet" type="text/css" href="design.css">
+<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css'>
+<link href='http://fonts.googleapis.com/css?family=Miltonian+Tattoo' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+ <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function init(){
+			var location = new google.maps.LatLng(41.856825,-87.639225);
+
+			var mapOptions = {
+  				center: location,
+  				zoom: 18,
+  				mapTypeControl: false
+			};
+
+			var mapElement = document.getElementById("map-canvas");
+			var map = new google.maps.Map(mapElement, mapOptions);
+
+			var marker = new google.maps.Marker({
+				position: location,
+				map: map,
+				animation: google.maps.Animation.BOUNCE
+			});
+		}
+		google.maps.event.addDomListener(window, 'load', init);
+    </script>
+</head>
+
+<body align = "center">
+<div>
+<img src="logo.png" style="width:420px;height:80px" align="right">
+</div>
+
+  <div id="nav-wrapper" >
+  <ul id="nav" align="center">
+<li><a href="index.html">HOME</a></li>
+    <li><a href="about.html">ABOUT US</a></li>
+    <li><a href="products.html">PRODUCTS</a></li>
+    <li><a href="contact.html">CONTACT US</a></li>
+   </ul>
+</div><br><br><br>
+
+<div id="aboutsection">
+<p class="small" align="center">
+<b>Contact Us </b></p>
+<p class="about1">
+
+Whether you are an existing customer who needs to schedule a service call, talk to your sales rep or ask about our latest technologies, or you and your company are looking for more information on our services, our customer service department will handle your inquiry and get you to the person who can get you the information you are looking for.
+You may contact us by phone or by submitting the contact form below. Your business is important to us and we pledge to respond to your inquiry within 24 hours.
+<br><br>
+
+<b>Mailing Address</b><br>
+1826 S Canal St
+Chicago, IL 60616
+<br><br>
+<b>Phone Number</b><br>
+800-555-1825<br>
+312-555-3000<br><br>
+<b>Connect Us through our Social Networking like</b>
+<a href="http://twitter.com/minimalmonkey" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a>
+<a href="http://facebook.com" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a><br><br>
+<a href="form.html" target="_blank"><b>Click here to enquire on things specifically</b></a>
+
+</p>
+</div>
+<div id="map-canvas"></div>
+</div>
+
+<div id="footer">
+Address: 1826 S Canal St, Chicago, IL 60616<br>
+Contact no:800-555-1825,312-555-3000
+
+</div>
+
+</body>
+
+</html>
